@@ -1,4 +1,4 @@
-let body = JSON.parse($request.body)
+let body = JSON.parse($response.body)
 body.subscription = {
   tier: "Pro",
   subscriptionActive: true,
