@@ -1,0 +1,12 @@
+#!name=mi
+#!desc=Dev tools for xiaomi
+
+[MITM]
+hostname = %APPEND% *.home.mi.com
+
+[URL Rewrite]
+st.iot.home.mi.com/(webapp/)? localhost:3000/ header
+preview.home.mi.com/(miot/activity/)? localhost:3000/ header
+st.plato.io.mi.srv/ localhost:3005/ header
+
+st.admin.iot.mi.srv/ localhost:4000/ header

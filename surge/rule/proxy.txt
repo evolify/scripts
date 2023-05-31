@@ -1,0 +1,4 @@
+.vercel.app
+.v2ex.com
+.gem.xyz
+.bing.com

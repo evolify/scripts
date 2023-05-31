@@ -1,0 +1,10 @@
+.mi.srv
+st.iot.mi.com
+.mioffice.cn
+mier.mi.com
+.xiaomi.net
+.xiaomi.com
+.dt.mi.com
+.qq.com
+
+localhost

@@ -1,0 +1,10 @@
+#!name=Whistle
+#!desc=Whistle Proxy
+
+[Rule]
+DOMAIN-SUFFIX, st.iot.mi.com, whistle
+DOMAIN-SUFFIX, st.iot.home.mi.com, whistle
+DOMAIN-SUFFIX, staging.home.mi.com, whistle
+DOMAIN-SUFFIX, preview.home.mi.com, whistle
+DOMAIN-SUFFIX, camera.api.io.mi.com, whistle
+DOMAIN-SUFFIX, okr.hr.xiaomi.com, whistle
