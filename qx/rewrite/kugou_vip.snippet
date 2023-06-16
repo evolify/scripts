@@ -1,3 +1,5 @@
-hostname = kugouvip.kugou.com
+hostname = kugouvip.kugou.com, media.store.kugou.com
 
 kugouvip\.kugou\.com\/v1\/(get_union_vip|batch_union_vipinfo) url script-response-body https://raw.githubusercontent.com/evolify/scripts/main/qx/script/kugou_vip.js
+
+http://media.store.kugou.com/v1/get_res_privilege url script-response-body https://raw.githubusercontent.com/evolify/scripts/main/qx/script/kugou_vip_media.js
